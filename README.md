@@ -1,3 +1,10 @@
+## NOTE:
+
+This fork of the yaml package uses "json" as the struct tag. This
+means that you do not need to maintain two sets of struct tags for
+basically the same thing (json and yaml) and third party structs which
+typically only specify json tag would work well with yaml as well.
+
 # YAML support for the Go language
 
 Introduction
